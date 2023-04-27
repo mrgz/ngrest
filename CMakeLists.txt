@@ -6,6 +6,7 @@ set(NGREST_VERSION "0.2.0")
 include(CheckCXXCompilerFlag)
 include(CheckLibraryExists)
 include(CheckIncludeFileCXX)
+include(GNUInstallDirs)
 
 check_cxx_compiler_flag(-std=gnu++11 HAS_CXX11)
 if (HAS_CXX11)
